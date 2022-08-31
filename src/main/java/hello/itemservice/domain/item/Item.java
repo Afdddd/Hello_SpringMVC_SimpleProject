@@ -3,7 +3,7 @@ package hello.itemservice.domain.item;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter @Setter
+@Setter @Getter
 public class Item {
     private Long Id;
     private String itemName;
@@ -18,4 +18,7 @@ public class Item {
         this.price = price;
         this.quantity = quantity;
     }
+
+
+
 }
